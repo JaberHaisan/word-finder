@@ -28,6 +28,7 @@ for length in range(1, maximum_length + 1):
 		if joined_comb in words:
 			matches.append(joined_comb)
 	
+	# Display Results.
 	print("{}: ".format(length), end="")
 	
 	if matches:
